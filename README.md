@@ -301,18 +301,18 @@ In MMB4L this function can return values for these additional properties:
      * Gets the value of the named environment variable, or the empty string if there is no such environment variable.
 
 * `MM.INFO(EXISTS path$)`
-      * Does the file / directory / device referred to by path$ exist ?
+     * Does the file / directory / device referred to by path$ exist ?
 
  * `MM.INFO(EXISTS SYMLINK path$)`
-      * Does path$ refer to a symbolic link ?
+     * Does path$ refer to a symbolic link ?
 
  * `MM.INFO(EXITCODE)`
-      * Gets the exit code "returned" by the last program run:
-          * If an `END` command is executed then this will be the optional exit code (default 0) specified to that command.
-          * If a program runs to its "natural end" without an explicit `END` command this will be 0.
-          * If a program is interrupted by the break key combination (default CTRL-C) this will be 130.
-          * If an unhandled `ERROR` occurs this will be 1 (this may change).
-          * If a ```NEW``` command is executed this will be 0.
+     * Gets the exit code "returned" by the last program run:
+         * If an `END` command is executed then this will be the optional exit code (default 0) specified to that command.
+         * If a program runs to its "natural end" without an explicit `END` command this will be 0.
+         * If a program is interrupted by the break key combination (default CTRL-C) this will be 130.
+         * If an unhandled `ERROR` occurs this will be 1 (this may change).
+         * If a ```NEW``` command is executed this will be 0.
 
 ### QUIT
 
