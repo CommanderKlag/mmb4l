@@ -201,7 +201,7 @@ The CONSOLE command manipulates the console/terminal using ANSI escape-codes:
      * Sounds the console "bell".
 
  * ```CONSOLE CLEAR```
-     * Clears the console using the current background colour AND moves the cursor o the origin (0, 0) *.
+     * Clears the console using the current background colour AND moves the cursor to the origin (0, 0) *.
      * This is synonymous with the top-level ```CLS``` command.
 
  * ```CONSOLE GETCURSOR x%, y%```
